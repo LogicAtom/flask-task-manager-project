@@ -148,7 +148,7 @@ def edit_task(task_id):
 @app.route("/delete_task/<task_id>")
 def delete_task(task_id):
     mongo.db.tasks.remove({"_id": ObjectId(task_id)})
-    flash("Task Successfully Deleted")
+    flash("Hidden Gem Successfully Deleted")
     return redirect(url_for("get_tasks"))
 
 
