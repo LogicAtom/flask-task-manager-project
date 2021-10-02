@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h3 class="light-green-text text-darken-4 center-align">Edit Task</h3>
+<h3 class="light-green-text text-darken-4 center-align">Edit Hidden Gem</h3>
 
 <div class="row card-panel grey lighten-5">
     <form class="col s12" method="POST" action="{{ url_for('edit_task', task_id=task._id) }}">
@@ -42,13 +42,13 @@
                 <label for="task_description">Details, Description, Location, Group Size, etc.</label>
             </div>
         </div>
-        <!-- due date picker -->
+        <!-- Visit, Event Date, etc. picker -->
         <div class="row">
             <div class="input-field col s12">
                 <i class="fas fa-calendar-alt prefix light-green-text text-darken-4"></i>
                 <input id="due_date" name="due_date" type="text" value="{{ task.due_date }}" class="datepicker validate"
                     required>
-                <label for="due_date">Due Date</label>
+                <label for="due_date">Visit date, Event Date, etc.</label>
             </div>
         </div>
         <!-- is urgent toggle -->
@@ -63,7 +63,7 @@
                         <input type="checkbox" id="is_urgent" name="is_urgent">
                         {% endif %}
                         <span class="lever"></span>
-                        Is Urgent
+                        Is Urgent/Ending Soon
                     </label>
                 </div>
             </div>
