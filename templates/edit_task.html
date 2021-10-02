@@ -19,7 +19,7 @@
                     {% endif %}
                     {% endfor %}
                 </select>
-                <label for="category_name">Task Category</label>
+                <label for="category_name">Category Name</label>
             </div>
         </div>
         <!-- task name -->
@@ -28,10 +28,10 @@
                 <i class="fas fa-pencil-alt prefix light-green-text text-darken-4"></i>
                 <input id="task_name" name="task_name" minlength="5" maxlength="50" value="{{ task.task_name }}"
                     type="text" class="validate" required>
-                <label for="task_name">Task Name</label>
+                <label for="task_name">Hidden Gem Name</label>
             </div>
         </div>
-        <!-- task description -->
+        <!-- Hidden Gem Description -->
         <div class="row">
             <div class="input-field col s12">
                 <i class="fas fa-align-left prefix light-green-text text-darken-4"></i>
@@ -39,7 +39,7 @@
                     class="materialize-textarea validate" required>
                         {{- task.task_description -}}
                     </textarea>
-                <label for="task_description">Task Description</label>
+                <label for="task_description">Details, Description, Location, Group Size, etc.</label>
             </div>
         </div>
         <!-- due date picker -->
