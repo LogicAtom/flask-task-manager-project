@@ -3,7 +3,7 @@
 # HIDDEN GEMS - Milestone 3
 
 
-
+Testing syncing from GitPod > GitHub > Heroku
 
 
 
