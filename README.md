@@ -5,6 +5,16 @@
 
 Testing syncing from GitPod > GitHub > Heroku
 
+pip3 install dnspython
+pip3 install pymongo
+pip3 install flask_pymongo
+pip3 install Flask
+
+python3
+python3 app.py
+
+##
+
 
 
 Welcome LogicAtom,
