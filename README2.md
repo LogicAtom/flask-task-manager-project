@@ -106,10 +106,10 @@ via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/Targ
 Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/heads/main.zip
 
 
-| Primary Languages | WEB Links |
-| ------ | ------ |
-| HTML5 | [https://en.wikipedia.org/wiki/HTML5] |
-| Python3 | [https://www.python.org/] |
+| Primary Languages |
+| ------ |
+| [HTML5](https://en.wikipedia.org/wiki/HTML5/ "HTML5") |
+| [Python3](https://www.python.org/ "Python3") |
 
 #
 | Secondary Languages | |
@@ -118,7 +118,6 @@ Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/hea
 | Jinja2 | [https://palletsprojects.com/p/jinja/] |
 | Flask | [https://flask.palletsprojects.com/en/2.0.x/] |
 | Django | [https://www.djangoproject.com/] |
-| [Python](https://www.python.org/ "Python") |
 
 ## Database
 MongoDB - https://www.mongodb.com/
