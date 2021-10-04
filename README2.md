@@ -107,11 +107,35 @@ Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/hea
 
 
 ### Content
-HTML5 Canvas - https://en.wikipedia.org/wiki/HTML5, https://html.spec.whatwg.org/multipage/
-CSS3 - https://www.w3.org/Style/CSS/Overview.en.html
-Vanilla JavaScript - https://www.javascript.com/
-Javascript Modal - https://www.w3schools.com/howto/howto_css_modals.asp
-Modernizr JS - Compatibility - https://modernizr.com/
+## Primary Programming Language(s)
+HTML5 - https://en.wikipedia.org/wiki/HTML5
+Python3 - https://www.python.org/
+
+## Secondary Programming Language(s)
+### Template Engine(s)
+Jinja2 - https://palletsprojects.com/p/jinja/
+
+### Web Framework(s)
+Flask - https://flask.palletsprojects.com/en/2.0.x/
+Django - https://www.djangoproject.com/
+
+## Database
+MongoDB - https://www.mongodb.com/
+
+## Web Server(s)
+GitHub - https://github.com/
+Heroku - https://www.heroku.com/platform
+
+## Project Source Code
+https://github.com/LogicAtom/flask-task-manager-project
+
+## Live Site
+http://flask-task-manager-project-koz.herokuapp.com
+
+#### Assistant Services and Drivers
+JQuery - https://jqueryui.com/
+Materialize CSS - https://materializecss.com/
+Amazon Web Services - https://aws.amazon.com/
 
 ### Media
 I took pictures of my design wireframe, mockup, and diagram from my dry erase board at home.
