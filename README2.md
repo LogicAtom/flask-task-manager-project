@@ -106,11 +106,11 @@ via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/Targ
 Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/heads/main.zip
 
 
-| Primary Languages |
-| ------ |
-| [HTML5](https://en.wikipedia.org/wiki/HTML5/ "HTML5") |
-| [Python3](https://www.python.org/ "Python3") |
-
+| Primary Languages | Template Engines & Frameworks |
+| ------ | ------ |
+| [HTML5](https://en.wikipedia.org/wiki/HTML5/ "HTML5") | [Jinja2](https://palletsprojects.com/p/jinja/ "Jinja2") |
+| [Python3](https://www.python.org/ "Python3") | [Flask](https://flask.palletsprojects.com/en/2.0.x/ "Flask") |
+| | [Django](https://www.djangoproject.com/ "Django") |
 #
 | Secondary Languages | |
 | ------ | ------ |
