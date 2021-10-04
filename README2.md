@@ -111,24 +111,11 @@ Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/hea
 | HTML5 | [https://en.wikipedia.org/wiki/HTML5] |
 | Python3 | [https://www.python.org/] |
 
-
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-
-### Content
-## Primary Programming Language(s)
-HTML5 - 
- - 
-
-## Secondary Programming Language(s)
-### Template Engine(s)
-Jinja2 - https://palletsprojects.com/p/jinja/
-
-### Web Framework(s)
-Flask - https://flask.palletsprojects.com/en/2.0.x/
-Django - https://www.djangoproject.com/
+| Secondary Languages |
+| Template Engines & Frameworks | WEB Link |
+| Jinja2 | [https://palletsprojects.com/p/jinja/] |
+| Flask | [https://flask.palletsprojects.com/en/2.0.x/] |
+| Django | [https://www.djangoproject.com/] |
 
 ## Database
 MongoDB - https://www.mongodb.com/
