@@ -118,6 +118,7 @@ Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/hea
 | Jinja2 | [https://palletsprojects.com/p/jinja/] |
 | Flask | [https://flask.palletsprojects.com/en/2.0.x/] |
 | Django | [https://www.djangoproject.com/] |
+| [Python](https://www.python.org/ "Python") |
 
 ## Database
 MongoDB - https://www.mongodb.com/
