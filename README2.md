@@ -106,6 +106,15 @@ via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/Targ
 Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/heads/main.zip
 
 
+| Plugin | README |
+| ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| GitHub | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+
 ### Content
 ## Primary Programming Language(s)
 HTML5 - https://en.wikipedia.org/wiki/HTML5
