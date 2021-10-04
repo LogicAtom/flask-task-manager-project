@@ -111,8 +111,8 @@ Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/hea
 | HTML5 | [https://en.wikipedia.org/wiki/HTML5] |
 | Python3 | [https://www.python.org/] |
 
-| Secondary Languages |
-| ------ |
+| Secondary Languages | |
+| ------ | ------ |
 | Template Engines & Frameworks | WEB Link |
 | Jinja2 | [https://palletsprojects.com/p/jinja/] |
 | Flask | [https://flask.palletsprojects.com/en/2.0.x/] |
