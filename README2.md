@@ -106,11 +106,12 @@ via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/Targ
 Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/heads/main.zip
 
 
-| WEB Languages | WEB LINK |
+| Primary Languages | WEB Links |
 | ------ | ------ |
 | HTML5 | [https://en.wikipedia.org/wiki/HTML5] |
 | Python3 | [https://www.python.org/] |
 
+#
 | Secondary Languages | |
 | ------ | ------ |
 | Template Engines & Frameworks | WEB Link |
@@ -121,9 +122,10 @@ Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/hea
 ## Database
 MongoDB - https://www.mongodb.com/
 
-## Web Server(s)
-GitHub - https://github.com/
-Heroku - https://www.heroku.com/platform
+| Web Servers | WEB Links |
+| ------ | ------ |
+| GitHub | [https://github.com/] |
+| Heroku | [https://www.heroku.com/platform] |
 
 ## Project Source Code
 https://github.com/LogicAtom/flask-task-manager-project
