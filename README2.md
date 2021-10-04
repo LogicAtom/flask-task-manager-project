@@ -120,16 +120,12 @@ MongoDB - https://www.mongodb.com/
 | [GitHub](https://github.com/ "GitHub") | [Source Code](https://github.com/LogicAtom/flask-task-manager-project "Source Code") |
 | [Heroku](https://www.heroku.com/platform "Heroku") | [My Live Site](http://flask-task-manager-project-koz.herokuapp.com "My Live Site") |
 
-## Project Source Code
-https://github.com/LogicAtom/flask-task-manager-project
-
-## Live Site
-http://flask-task-manager-project-koz.herokuapp.com
-
 #### Assistant Services and Drivers
 JQuery - https://jqueryui.com/
 Materialize CSS - https://materializecss.com/
 Amazon Web Services - https://aws.amazon.com/
+[Git](https://git-scm.com/ "Git") : For Version Control System
+[GitPod](https://gitpod.io/ "GitPod"): For Direct Interacting with Github
 
 ### Media
 I took pictures of my design wireframe, mockup, and diagram from my dry erase board at home.
@@ -148,10 +144,6 @@ Code Institute - Tutors for all your help..you rock!
 https://modernizr.com/
 
 http://mobilehtml5.org/
-
-Physical books:
-assets/img/20210716_114512.jpg
-assets/img/20210731_082235.jpg
 
 HTML and CSS by: Joe Casabona 9th edition - ISBN-13=978-0-13-670256-6 = Testing sites
 https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/europe
@@ -176,3 +168,110 @@ I would personally like to thank my friends and family for putting up with me du
 + Audrey Kozloski: mom ...thanks for all those amazing home cooked meals!  yum :)
 + Jeff Showers: neighbor/friend/additional game tester
 + Rosie(hamster/ninja warrior): my 2am school break entertainer
+
+
+
+## 🚀 Features
+
+You are just one command away to start your next project
+
+- **Create Github Repo**
+
+- **Create Organization Repo**
+
+- **Open Project in IDE**
+
+## 🦋 Prerequisite
+
+- [Python](https://www.python.org/ "Python") Installed
+
+- Python Basics Understanding
+
+- [Git](https://git-scm.com/ "Git OFficial") Installed
+
+- Git Basic Understanding
+
+- [GH](https://cli.github.com/ "Github CLI") Installed
+
+## 🛠️ Installation Steps
+
+1. Clone the repository
+
+```Bash
+git clone https://github.com/LogicAtom/flask-task-manager-project.git
+```
+
+2. Change the working directory
+
+```Bash
+cd flask-task-manager-project.htm
+```
+
+3. Add Environment Variable path of this directory
+
+4. Run the app using terminal
+
+**🎇 You are Ready to Go!**
+
+## ❗ Available Commands
+
+In the project directory, you can run:
+
+```Bash
+create
+```
+
+Either run this command in the project folder or set the path of `create.bat` in the environmental variable for executing create command anywhere (Run, cmd, or PowerShell).
+
+```Bash
+create <project_name>
+```
+
+For creating Local Repo use this command and it will create a local repository in the path provided.
+
+```Bash
+create <project_name> -g
+```
+
+For creating a Global Repo use this command and it will create a global repository on your GitHub profile using `gh` and make & push the initial commit.
+
+```Bash
+create <project_name> -o
+```
+
+For creating an Organization Repo use this command and it will create an Organization repository on your GitHub profile using `gh` and make & push the initial commit
+
+> If you pass any other option like `-pr` then the repo will be private otherwise it will be public
+
+## 👷 Built with
+
+- [Python](https://www.python.org/ "Python"): as Main Coding Language for executing commands
+
+- [Batch](https://en.wikipedia.org/wiki/Batch_file "Batch") : For python file executor
+
+- [Github](https://github.com/ "Github") : For Repo Storage and source code management
+
+- [Git](https://git-scm.com/ "Git") : For Version Control System
+
+- [Github CLI](https://cli.github.com/ "Github CLI"): For Direct Interacting with Github
+
+
+
+## 🎊 Future Updates
+
+- [ ] Add project boilerplate automatically for different languages and frameworks
+
+- [ ] Add GUI
+
+- [x] Add Screenshots Folder
+
+- [x] Add Project to WorkSpaces
+
+- [ ] Add Documentations
+
+## 🧑🏻 Code Developer
+
+**Anthony Kozloski**
+
+- 🌌 [Profile](https://github.com/LogicAtom "Anthony Kozloski")
+
