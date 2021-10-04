@@ -111,21 +111,14 @@ Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/hea
 | [HTML5](https://en.wikipedia.org/wiki/HTML5/ "HTML5") | [Jinja2](https://palletsprojects.com/p/jinja/ "Jinja2") |
 | [Python3](https://www.python.org/ "Python3") | [Flask](https://flask.palletsprojects.com/en/2.0.x/ "Flask") |
 | | [Django](https://www.djangoproject.com/ "Django") |
-#
-| Secondary Languages | |
-| ------ | ------ |
-| Template Engines & Frameworks | WEB Link |
-| Jinja2 | [https://palletsprojects.com/p/jinja/] |
-| Flask | [https://flask.palletsprojects.com/en/2.0.x/] |
-| Django | [https://www.djangoproject.com/] |
 
 ## Database
 MongoDB - https://www.mongodb.com/
 
-| Web Servers | WEB Links |
+| Servers | My Live Code |
 | ------ | ------ |
-| GitHub | [https://github.com/] |
-| Heroku | [https://www.heroku.com/platform] |
+| [GitHub](https://github.com/ "GitHub") | [Source Code](https://github.com/LogicAtom/flask-task-manager-project "Source Code") |
+| [Heroku](https://www.heroku.com/platform "Heroku") | [My Live Site](http://flask-task-manager-project-koz.herokuapp.com "My Live Site") |
 
 ## Project Source Code
 https://github.com/LogicAtom/flask-task-manager-project
