@@ -1,18 +1,13 @@
-Target Shooter
+Hidden Gems
 
-This is a JavaScript game where the player commands a Space Shooter Ship that the player moves around the screen and shoots at moving targets. The targets break apart into incrementally smaller sized targets. A point system is awarded and a high score is saved across browser sessions.
-
-After all target objects are destroyed, the next level loads with increasing difficulty and more faster targets. The object of the game is purely entertainment related.
-
-The game levels just keep going up, there is no winning the game for a prize or reward..its merely for fun only!
-
-Keep playing to try to beat your high score!
+This is a database project for the school I am attending, Code Institute. This project is for Milestone 3 (data-centric backend development). Its purpose is to prove that I can code backend Python logic.
  
 ## UX
  
-I designed the game to be a fun and easy to play game for all age groups, both females and males. It was designed for desktop computer and laptop pc systems that have physical keyboards. The game is most likely to draw more of a male interest for those who enjoy vintage style gaming on older systems. The way this game operates is easy to understand and anyone can become a skilled Hunter in a very short period of time. My project uses simple controls that are intutitive and effective which makes it one of the best shooter games out there. 
+Basic website for showcasing data manipulation via CRUD in MongoDB. JQuery is used for the RWD hamburger side pop-out menu. MaterializeCSS is used for an increased overall appearance. MaterializeCSS was chosen over Bootstrap as I am not a fan of Bootstrap because it makes every website look identical and not custom, this is a personal preference of mine.
 
-I really wanted to create an accessiblity user experience. Which is the primary reason that I used the keyboard arrow keys for controls. And the down arrow to shoot. This ensure one-handed operation of all controls in the game.
+<br />
+CRUD functions are handled via buttons for UI simplicity.
 
 ### User Stories/Extended Scenarios
     Anyone interested in locating Hidden Gems, which are local locations that don't get much if any publication, but are the most amazing places.
