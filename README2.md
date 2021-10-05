@@ -50,13 +50,19 @@ Vanilla JavaScript - https://www.javascript.com/
 Modernizr - https://modernizr.com/
 
 ## Testing
-https://validator.w3.org/nu/?doc=https%3A%2F%2Flogicatom.github.io%2FTargetShooter%2F
-https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flogicatom.github.io%2FTargetShooter%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+Result = Passed https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F
+<br />
 
+Result = Errors(external libraries only) https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F&profile=none&usermedium=all&warning=1&vextwarning=&lang=en
+
+<br />
 Performance Testing:
-Result=Score 100
-http://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Flogicatom.github.io%2FTargetShooter%2F
+<br />
+Result=Score 93
+<br />
+https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F
 
+<br />
 I have performed extensive testing on each and every step of this project.
 I had 8 other testers with different devices test as well. = Results, fully functional.
 
