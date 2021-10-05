@@ -94,10 +94,12 @@ Amazon Web Services - https://aws.amazon.com/
 
 Anthony Kozloski - Coder
 
-Code Institute - FullStack Boot Camp
+Code Institute - FullStack Boot Camp - Most of the code and instructions was written by Code Institute, I cannot take credit for the code, only the customization of the code is actually mine.
+<br />
 Code Institute - for having me create a Python3 - Data Centric Development project
 
 Code Institute - Tutors for all your help..you rock!
+<br />
 Code Institute - Student Care Team and Advisers..You are the most amazing people and I couldn't get this far without you!
 
 DevTools > Toggle Device Toolbar
