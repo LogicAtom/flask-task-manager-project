@@ -98,15 +98,7 @@ Code Institute - FullStack Boot Camp
 Code Institute - for having me create a Python3 - Data Centric Development project
 
 Code Institute - Tutors for all your help..you rock!
-
-
-https://modernizr.com/
-
-http://mobilehtml5.org/
-
-HTML and CSS by: Joe Casabona 9th edition - ISBN-13=978-0-13-670256-6 = Testing sites
-https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/europe
-https://gs.statcounter.com/screen-resolution-stats
+Code Institute - Student Care Team and Advisers..You are the most amazing people and I couldn't get this far without you!
 
 DevTools > Toggle Device Toolbar
 
@@ -122,13 +114,10 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
 https://ian.hixie.ch/ (The Editor of the HTML5 Spec)
 
 I would personally like to thank my friends and family for putting up with me during the stress of building this project.
-+ Anthony Kozloski: dad ...you taught me so much about life and I wanted to make a disabled person's game so you could play it. I didn't get it completed in time before you passed away. I love you and miss you.
+
 + Peggy Gallagher: <3 teacher/friend/time & space giver
 + Audrey Kozloski: mom ...thanks for all those amazing home cooked meals!  yum :)
-+ Jeff Showers: neighbor/friend/additional game tester
-+ Rosie(hamster/ninja warrior): my 2am school break entertainer
-
-
++ Rosie(hamster/ninja warrior): my 2am school break entertainer - She passed away September 2021, you will be missed my friend.
 
 ## 🚀 Features
 
