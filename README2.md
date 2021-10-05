@@ -64,9 +64,7 @@ https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fflask-t
 
 <br />
 I have performed extensive testing on each and every step of this project.
-I had 8 other testers with different devices test as well. = Results, fully functional.
-
-Game window screen attempting to move the lives and score off of the main game screen...I tried changing the drawScreen function, ctx.fillRect attribute for height -20px = result is a failure as the targets and the ship can travel into that empty space and cause unexpected visual distortions.
+I had 3 other testers with different devices test as well. = Results, fully functional.
 
 Compatibility Testing:
 
@@ -83,15 +81,12 @@ https://jshint.com/
 Validation Testing:
 
 http://validator.w3.org/ (HTML5)
+<br />
 https://jigsaw.w3.org/css-validator/ (CSS3)
-
 
 Performance Testing:
 
 http://developers.google.com/speed/pagespeed/insights/
-
-#### Currently testing ...I tried my best for over 8 months to get touch screen events to work with html5 canvas, but I failed at being successful.
-= RWD Canvas API controls, using code referenced from a physical book named: HTML5 Canvas - Native Interactivity and Animation for the Web, 2nd edition, by O'REILLY publishing, Authors: Steve Fulton & Jeff Fulton, ISBN 978-1-449-33498-7
 
 ## Deployment
 
