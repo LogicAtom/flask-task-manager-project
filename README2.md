@@ -102,6 +102,14 @@ Code Institute - Tutors for all your help..you rock!
 <br />
 Code Institute - Student Care Team and Advisers..You are the most amazing people and I couldn't get this far without you!
 
+### Educational Acknowledgements
+Palmetto Goodwill - In collaboration with TTC - Grant Funder (my beautiful angels!)
+<br />
+Code Institute - Web Development School - You are the best Teachers!
+<br />
+Ed2Go/Cengage - Online Courses - You brought it all together, and offered the course. Awesome!
+
+
 DevTools > Toggle Device Toolbar
 
 https://www.lambdatest.com/
