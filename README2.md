@@ -15,9 +15,13 @@ I designed the game to be a fun and easy to play game for all age groups, both f
 I really wanted to create an accessiblity user experience. Which is the primary reason that I used the keyboard arrow keys for controls. And the down arrow to shoot. This ensure one-handed operation of all controls in the game.
 
 ### User Stories/Extended Scenarios
-    An average adult male named Tony, is looking for a game to play to de-stress while waiting for a virtual job interviewer to meet with him. Tony finds this internet game and tries it out. The simple control structure and enjoyability create the perfect environment and while playing he forgets about the cares of the outside world while he blasts away targets. The interviewer meets with Tony and sees that he is much calmer and confident to openly talk and share about his work experience. Tony gets the job and smiles, and bookmarks my game and shares his experience with friends who then become avid enthusiasts.
+    Anyone interested in locating Hidden Gems, which are local locations that don't get much if any publication, but are the most amazing places.
 
-    Peggy, a middle aged female, public High School Mathematics Teacher is looking for new ways to get her students to enjoy Math. She does an internet search for a web application game that uses core trigonometry and discrete math by using JavaScript. My project game sounds interesting to her so she tries it and really likes it. She asks the programmer (me) for the code to share in her daily classes. The students readily enjoy the game playability and enjoyment factor. They become active listeners to her math instructions everyday.
+    The average user to this site could Register to become a Community Member and Login to access database features that are only available to registered users.
+
+    Editing and Deleting posts directly communicates with MongoDB and only the post creator can see those buttons for their own posts.
+
+    Everyone can view all posts.
 ******
 ### Wireframes, mockups, diagrams etc. that were created as part of the design process.
 https://github.com/LogicAtom/TargetShooter/tree/main/wireframes/versions/version2
@@ -25,30 +29,10 @@ https://github.com/LogicAtom/TargetShooter/tree/main/wireframes/versions/version
 Documentation for wireframes: I have included the wireframes in sequential order to show my direction for the layout, even though the final product doesn't use some of the elements. Its pretty self explanatory.
 
 #### Features
-Feature 1  - allows users to play a fun game
-Feature 2  - has interactive functionality via the keyboard arrow buttons.
-Feature 3  - one handed accessibilty controls.
+Feature 1  - MongoDB CRUD functionality
+Feature 2  - User authorization
+Feature 3  - RWD
  
-##### Existing Features
-- Keyboard arrow controls
-= up arrow = accelerate forwards
-= left arrow, right arrow = rotate Hunter
-= spacebar, down arrow = shoot bullets at targets
-
-### Features Left to Implement
-= Mouse functionality
-Touch interaction
-
-#### Currently fixing = 
-= Mouse functionality
-= Touch functionality
-
-## Technologies Used
-HTML5 Canvas - https://en.wikipedia.org/wiki/HTML5, https://html.spec.whatwg.org/multipage/
-CSS3 - https://www.w3.org/Style/CSS/Overview.en.html
-Vanilla JavaScript - https://www.javascript.com/
-Modernizr - https://modernizr.com/
-
 ## Testing
 Result = Passed https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F
 <br />
@@ -92,13 +76,6 @@ http://developers.google.com/speed/pagespeed/insights/
 
 https://github.com/LogicAtom/TargetShooter/deployments/activity_log?environment=github-pages
 
-I uploaded the project directly to Github using Github Desktop and pushed the project to Github Pages.
-
-Source = Local PC files
-Target = GitHub Repository (https://github.com/LogicAtom/TargetShooter)
-
-Change of plans...i used GitPod this time for resubmission. :)
-
 Deployment via GitPod using git 
 Alternate Deployment via Microsoft Visual Studio Code
 
@@ -106,6 +83,7 @@ CLONING:  https://github.com/LogicAtom/TargetShooter.git (or) gh repo clone Logi
 via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/TargetShooter
 Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/heads/main.zip
 
+## Technologies Used
 
 | Primary Languages | Template Engines & Frameworks |
 | ------ | ------ |
@@ -127,10 +105,6 @@ Materialize CSS - https://materializecss.com/
 Amazon Web Services - https://aws.amazon.com/
 [Git](https://git-scm.com/ "Git") : For Version Control System
 [GitPod](https://gitpod.io/ "GitPod"): For Direct Interacting with Github
-
-### Media
-I took pictures of my design wireframe, mockup, and diagram from my dry erase board at home.
-
 
 ### Credits and Acknowledgements
 
