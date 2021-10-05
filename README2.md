@@ -1,4 +1,4 @@
-Hidden Gems
+# Hidden Gems
 
 This is a database project for the school I am attending, Code Institute. This project is for Milestone 3 (data-centric backend development). Its purpose is to prove that I can code backend Python logic.
  
@@ -66,17 +66,6 @@ https://jigsaw.w3.org/css-validator/ (CSS3)
 Performance Testing:
 
 http://developers.google.com/speed/pagespeed/insights/
-
-## Deployment
-
-https://github.com/LogicAtom/TargetShooter/deployments/activity_log?environment=github-pages
-
-Deployment via GitPod using git 
-Alternate Deployment via Microsoft Visual Studio Code
-
-CLONING:  https://github.com/LogicAtom/TargetShooter.git (or) gh repo clone LogicAtom/TargetShooter
-via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/TargetShooter
-Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/heads/main.zip
 
 ## Technologies Used
 
@@ -226,18 +215,17 @@ For creating an Organization Repo use this command and it will create an Organiz
 - [Github CLI](https://cli.github.com/ "Github CLI"): For Direct Interacting with Github
 
 
-
 ## 🎊 Future Updates
 
-- [ ] Add project boilerplate automatically for different languages and frameworks
+- [x] Add project boilerplate automatically for different languages and frameworks
 
-- [ ] Add GUI
+- [] Add GUI
 
 - [x] Add Screenshots Folder
 
-- [x] Add Project to WorkSpaces
+- [] Add Project to WorkSpaces
 
-- [ ] Add Documentations
+- [] Add Documentations
 
 ## 🧑🏻 Code Developer
 
@@ -245,3 +233,15 @@ For creating an Organization Repo use this command and it will create an Organiz
 
 - 🌌 [Profile](https://github.com/LogicAtom "Anthony Kozloski")
 
+## Deployment
+
+I NEED TO FIX THIS AREA
+
+https://github.com/LogicAtom/TargetShooter/deployments/activity_log?environment=github-pages
+
+Deployment via GitPod using git 
+Alternate Deployment via Microsoft Visual Studio Code
+
+CLONING:  https://github.com/LogicAtom/TargetShooter.git (or) gh repo clone LogicAtom/TargetShooter
+via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/TargetShooter
+Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/heads/main.zip
