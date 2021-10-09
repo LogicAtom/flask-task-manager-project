@@ -83,6 +83,21 @@ MongoDB - https://www.mongodb.com/
 | [GitHub](https://github.com/ "GitHub") | [Source Code](https://github.com/LogicAtom/flask-task-manager-project "Source Code") |
 | [Heroku](https://www.heroku.com/platform "Heroku") | [My Live Site](http://flask-task-manager-project-koz.herokuapp.com "My Live Site") |
 
+## Data Models
+MongoDB Document Modeling<br />
+Key: Value pairs<br /><br />
+Collection Name: task_manager<br />
+categories > category_name : value<br />
+tasks > category_name:"Travel"<br />
+example::<br />
+task_name:"Snowshoe, WV"<br />
+task_description:"Special event, snow tractor ride to candlelight dinner"<br />
+is_urgent:"off"<br />
+due_date:"01 February, 2005"<br />
+created_by:"admin"<br />
+users > username : value<br />
+        password : value<br />
+
 #### Assistant Services and Drivers
 JQuery - https://jqueryui.com/
 Materialize CSS - https://materializecss.com/
