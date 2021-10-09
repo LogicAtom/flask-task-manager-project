@@ -1,120 +1,257 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hidden Gems
 
-# HIDDEN GEMS - Milestone 3
+This is a database project for the school I am attending, Code Institute. This project is for Milestone 3 (data-centric backend development). Its purpose is to prove that I can code backend Python logic.
+ 
+## UX
+ 
+Basic website for showcasing data manipulation via CRUD in MongoDB. JQuery is used for the RWD hamburger side pop-out menu. MaterializeCSS is used for an increased overall appearance. MaterializeCSS was chosen over Bootstrap as I am not a fan of Bootstrap because it makes every website look identical and not custom, this is a personal preference of mine.
+
+<br />
+CRUD functions are handled via buttons for UI simplicity.
+
+### User Stories/Extended Scenarios
+    Anyone interested in locating Hidden Gems, which are local locations that don't get much if any publication, but are the most amazing places.
+
+    The average user to this site could Register to become a Community Member and Login to access database features that are only available to registered users.
+
+    Editing and Deleting posts directly communicates with MongoDB and only the post creator can see those buttons for their own posts.
+
+    Everyone can view all posts.
+******
+### Wireframes, mockups, diagrams etc. that were created as part of the design process.
+https://github.com/LogicAtom/TargetShooter/tree/main/wireframes/versions/version2
+
+Documentation for wireframes: I have included the wireframes in sequential order to show my direction for the layout, even though the final product doesn't use some of the elements. Its pretty self explanatory.
+
+#### Features
+Feature 1  - MongoDB CRUD functionality
+Feature 2  - User authorization
+Feature 3  - RWD
+ 
+## Testing
+Result = Passed https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F
+<br />
+
+Result = Errors(external libraries only) https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F&profile=none&usermedium=all&warning=1&vextwarning=&lang=en
+
+<br />
+Performance Testing:
+<br />
+Result=Score 93
+<br />
+https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F
+
+<br />
+I have performed extensive testing on each and every step of this project.
+I had 3 other testers with different devices test as well. = Results, fully functional.
+
+Compatibility Testing:
+
+http://mobilehtml5.org/
+
+Code Errors Testing:
+
+DevTools > Toggle Device Toolbar
+
+https://www.lambdatest.com/
+
+https://jshint.com/
+
+Validation Testing:
+
+http://validator.w3.org/ (HTML5)
+<br />
+https://jigsaw.w3.org/css-validator/ (CSS3)
+
+Performance Testing:
+
+http://developers.google.com/speed/pagespeed/insights/
+
+## Technologies Used
+
+| Primary Languages | Template Engines & Frameworks |
+| ------ | ------ |
+| [HTML5](https://en.wikipedia.org/wiki/HTML5/ "HTML5") | [Jinja2](https://palletsprojects.com/p/jinja/ "Jinja2") |
+| [Python3](https://www.python.org/ "Python3") | [Flask](https://flask.palletsprojects.com/en/2.0.x/ "Flask") |
+| | [Django](https://www.djangoproject.com/ "Django") |
+
+## Database
+MongoDB - https://www.mongodb.com/
+
+| Servers | My Live Code |
+| ------ | ------ |
+| [GitHub](https://github.com/ "GitHub") | [Source Code](https://github.com/LogicAtom/flask-task-manager-project "Source Code") |
+| [Heroku](https://www.heroku.com/platform "Heroku") | [My Live Site](http://flask-task-manager-project-koz.herokuapp.com "My Live Site") |
+
+#### Assistant Services and Drivers
+JQuery - https://jqueryui.com/
+Materialize CSS - https://materializecss.com/
+Amazon Web Services - https://aws.amazon.com/
+[Git](https://git-scm.com/ "Git") : For Version Control System
+[GitPod](https://gitpod.io/ "GitPod"): For Direct Interacting with Github
+
+### Credits and Acknowledgements
+
+Anthony Kozloski - Coder
+
+Code Institute - FullStack Boot Camp - Most of the code and instructions was written by Code Institute, I cannot take credit for the code, only the customization of the code is actually mine.
+<br />
+Code Institute - for having me create a Python3 - Data Centric Development project
+
+Code Institute - Tutors for all your help..you rock!
+<br />
+Code Institute - Student Care Team and Advisers..You are the most amazing people and I couldn't get this far without you!
+
+### Educational Acknowledgements
+Palmetto Goodwill - In collaboration with TTC - Grant Funder (my beautiful angels!)
+<br />
+Code Institute - Web Development School - You are the best Teachers!
+<br />
+Ed2Go/Cengage - Online Courses - You brought it all together, and offered the course. Awesome!
 
 
-Testing syncing from GitPod > GitHub > Heroku
+DevTools > Toggle Device Toolbar
 
+https://www.lambdatest.com/
+
+http://validator.w3.org/
+
+
+http://developers.google.com/speed/pagespeed/insights/
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
+
+https://ian.hixie.ch/ (The Editor of the HTML5 Spec)
+
+I would personally like to thank my friends and family for putting up with me during the stress of building this project.
+
++ Audrey Kozloski: mom ...thanks for all those amazing home cooked meals!  yum :)
++ Rosie(hamster/ninja warrior): my 2am school break entertainer - She passed away September 2021, you will be missed my friend.
+
+## 🚀 Features
+
+You are just one command away to start your next project
+
+- **Create Github Repo**
+
+- **Create Organization Repo**
+
+- **Open Project in IDE**
+
+## 🦋 Prerequisite
+
+- [Python](https://www.python.org/ "Python") Installed
+
+- Python Basics Understanding
+
+- [Git](https://git-scm.com/ "Git OFficial") Installed
+
+- Git Basic Understanding
+
+- [GH](https://cli.github.com/ "Github CLI") Installed
+
+## 🛠️ Installation Steps
+
+1. Clone the repository
+
+```Bash
+git clone https://github.com/LogicAtom/flask-task-manager-project.git
+```
+
+2. Change the working directory
+
+```Bash
+cd flask-task-manager-project.htm
+```
+
+3. Add Environment Variable path of this directory
+
+4. Run the app using terminal
+
+**🎇 You are Ready to Go!**
+
+## Pip3 Installs
 pip3 install dnspython
+<br/>
 pip3 install pymongo
+<br />
 pip3 install flask_pymongo
+<br />
 pip3 install Flask
+<br />
 
-python3
-python3 app.py
+## CLI
+python3 <br />
+python3 app.py (to start a development server)
 
-## D
+## ❗ Available Commands
 
+In the project directory, you can run:
 
-
-
-Welcome LogicAtom,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
+```Bash
+create
 ```
 
-**Anything more?**
+Either run this command in the project folder or set the path of `create.bat` in the environmental variable for executing create command anywhere (Run, cmd, or PowerShell).
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+```Bash
+create <project_name>
+```
 
----
+For creating Local Repo use this command and it will create a local repository in the path provided.
 
-Happy coding!
+```Bash
+create <project_name> -g
+```
+
+For creating a Global Repo use this command and it will create a global repository on your GitHub profile using `gh` and make & push the initial commit.
+
+```Bash
+create <project_name> -o
+```
+
+For creating an Organization Repo use this command and it will create an Organization repository on your GitHub profile using `gh` and make & push the initial commit
+
+> If you pass any other option like `-pr` then the repo will be private otherwise it will be public
+
+## 👷 Built with
+
+- [Python](https://www.python.org/ "Python"): as Main Coding Language for executing commands
+
+- [Batch](https://en.wikipedia.org/wiki/Batch_file "Batch") : For python file executor
+
+- [Github](https://github.com/ "Github") : For Repo Storage and source code management
+
+- [Git](https://git-scm.com/ "Git") : For Version Control System
+
+- [Github CLI](https://cli.github.com/ "Github CLI"): For Direct Interacting with Github
+
+
+## 🎊 Future Updates
+
+- [x] Add project boilerplate automatically for different languages and frameworks
+
+- [] Add GUI
+
+- [x] Add Screenshots Folder
+
+- [] Add Project to WorkSpaces
+
+- [] Add Documentations
+
+## 🧑🏻 Code Developer
+
+**Anthony Kozloski**
+
+- 🌌 [Profile](https://github.com/LogicAtom "Anthony Kozloski")
+
+## Deployment/Environments
+
+https://github.com/LogicAtom/flask-task-manager-project/deployments
+
+Deployment via GitPod using git 
+Alternate Deployment via Microsoft Visual Studio Code
+
+CLONING:  https://github.com/LogicAtom/flask-task-manager-project.git (or) gh repo clone LogicAtom/flask-task-manager-project
+via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/flask-task-manager-project
+Download .zip file:  https://github.com/LogicAtom/flask-task-manager-project/archive/refs/heads/main.zip
