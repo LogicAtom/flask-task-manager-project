@@ -170,6 +170,20 @@ cd flask-task-manager-project.htm
 
 **🎇 You are Ready to Go!**
 
+## Pip3 Installs
+pip3 install dnspython
+<br/>
+pip3 install pymongo
+<br />
+pip3 install flask_pymongo
+<br />
+pip3 install Flask
+<br />
+
+## CLI
+python3 <br />
+python3 app.py (to start a development server)
+
 ## ❗ Available Commands
 
 In the project directory, you can run:
