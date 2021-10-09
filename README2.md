@@ -125,7 +125,6 @@ https://ian.hixie.ch/ (The Editor of the HTML5 Spec)
 
 I would personally like to thank my friends and family for putting up with me during the stress of building this project.
 
-+ Peggy Gallagher: <3 teacher/friend/time & space giver
 + Audrey Kozloski: mom ...thanks for all those amazing home cooked meals!  yum :)
 + Rosie(hamster/ninja warrior): my 2am school break entertainer - She passed away September 2021, you will be missed my friend.
 
@@ -232,15 +231,13 @@ For creating an Organization Repo use this command and it will create an Organiz
 
 - 🌌 [Profile](https://github.com/LogicAtom "Anthony Kozloski")
 
-## Deployment
+## Deployment/Environments
 
-I NEED TO FIX THIS AREA
-
-https://github.com/LogicAtom/TargetShooter/deployments/activity_log?environment=github-pages
+https://github.com/LogicAtom/flask-task-manager-project/deployments
 
 Deployment via GitPod using git 
 Alternate Deployment via Microsoft Visual Studio Code
 
-CLONING:  https://github.com/LogicAtom/TargetShooter.git (or) gh repo clone LogicAtom/TargetShooter
-via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/TargetShooter
-Download .zip file:  https://github.com/LogicAtom/TargetShooter/archive/refs/heads/main.zip
+CLONING:  https://github.com/LogicAtom/flask-task-manager-project.git (or) gh repo clone LogicAtom/flask-task-manager-project
+via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/flask-task-manager-project
+Download .zip file:  https://github.com/LogicAtom/flask-task-manager-project/archive/refs/heads/main.zip
