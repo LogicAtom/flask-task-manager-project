@@ -18,8 +18,8 @@ mongo = PyMongo(app)
 
 
 @app.route("/")
-@app.route("/get_tasks")
-def get_tasks():
+@app.route("/get_gems")
+def get_gems():
     tasks = list(mongo.db.tasks.find())
     return render_template("tasks.html", tasks=tasks)
 
@@ -119,7 +119,7 @@ def add_gem():
         }
         mongo.db.tasks.insert_one(task)
         flash("Hidden Gem Successfully Added")
-        return redirect(url_for("get_tasks"))
+        return redirect(url_for("get_gems"))
 
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("add_gem.html", categories=categories)
@@ -149,7 +149,7 @@ def edit_task(task_id):
 def delete_task(task_id):
     mongo.db.tasks.remove({"_id": ObjectId(task_id)})
     flash("Hidden Gem Successfully Deleted")
-    return redirect(url_for("get_tasks"))
+    return redirect(url_for("get_gems"))
 
 
 @app.route("/get_categories")
