@@ -35,6 +35,16 @@ Now I need to rename the 'tasks' collection to 'gems'...
 <code>use ms3_db</code> to switch to that database., then type this to rename the collection<br />
 <code>db.tasks.renameCollection('gems')</code><br />
 https://stackoverflow.com/a/8732666/13254826
+<br />
+
+********* ATTEMPT 1....SUCCESS!
+
+show collections
+
+now shows:
+1. categories
+2. gems
+3. users
 
 ## UX
  
