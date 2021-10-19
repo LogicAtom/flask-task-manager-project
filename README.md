@@ -22,13 +22,17 @@ use task_manager
         db.getSiblingDB('ms3_db')[collName].insert(d); 
     }) 
 });
-</code>
+</code><br />
 === SUCCESS ...copied Database collection named: task_manager, to, a new Database, named: ms3_db
 <br />
 https://stackoverflow.com/questions/9201832/how-do-you-rename-a-mongodb-database/57811701#57811701
 https://stackoverflow.com/a/48372759/13254826
 ''''
 <br />
+
+Now I need to rename the 'tasks' collection to 'gems'...
+<code>db.tasks.renameCollection('gems')</code><br />
+https://stackoverflow.com/a/8732666/13254826
 
 ## UX
  
