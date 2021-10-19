@@ -13,7 +13,21 @@ show dbs
 
 help
 
+use task_manager
 
+<br />
+'''''
+<code>db.getCollectionNames().forEach(function(collName) {
+    db[collName].find().forEach(function(d){
+        db.getSiblingDB('ms3_db')[collName].insert(d); 
+    }) 
+});
+</code>
+=== SUCCESS ...copied Database collection named: task_manager, to, a new Database, named: ms3_db
+<br />
+https://stackoverflow.com/questions/9201832/how-do-you-rename-a-mongodb-database/57811701#57811701
+https://stackoverflow.com/a/48372759/13254826
+''''
 
 ## UX
  
