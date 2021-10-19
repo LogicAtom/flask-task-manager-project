@@ -21,10 +21,10 @@
         <!-- top navbar -->
         <nav class="nav-extended text-shadow light-green darken-1">
             <div class="nav-wrapper">
-                <a href="{{ url_for('get_tasks') }}" class="brand-logo">Hidden Gems</a>
+                <a href="{{ url_for('get_gems') }}" class="brand-logo">Hidden Gems</a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="{{ url_for('get_tasks') }}">Home</a></li>
+                    <li><a href="{{ url_for('get_gems') }}">Home</a></li>
                     {% if session.user %}
                     <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
                     <li><a href="{{ url_for('add_gem') }}">Add Gem</a></li>
@@ -45,7 +45,7 @@
             <li>
                 <h4 class="center-align light-green-text text-darken 4">Hidden Gems</h4>
             </li>
-            <li><a href="{{ url_for('get_tasks') }}">Home</a></li>
+            <li><a href="{{ url_for('get_gems') }}">Home</a></li>
             {% if session.user %}
             <li><a href="{{ url_for('profile', username=session['user']) }}">Profile</a></li>
             <li><a href="{{ url_for('add_gem') }}">Add Gem</a></li>
