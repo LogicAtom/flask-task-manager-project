@@ -105,8 +105,8 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/add_task", methods=["GET", "POST"])
-def add_task():
+@app.route("/add_gem", methods=["GET", "POST"])
+def add_gem():
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
         task = {
@@ -122,7 +122,7 @@ def add_task():
         return redirect(url_for("get_tasks"))
 
     categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template("add_task.html", categories=categories)
+    return render_template("add_gem.html", categories=categories)
 
 
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])
