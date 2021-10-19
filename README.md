@@ -11,6 +11,8 @@ command:
 
 show dbs
 
+help
+
 
 
 ## UX
