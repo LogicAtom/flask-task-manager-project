@@ -109,15 +109,15 @@ def logout():
 def add_gem():
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
-        task = {
+        gem = {
             "category_name": request.form.get("category_name"),
-            "task_name": request.form.get("task_name"),
-            "task_description": request.form.get("task_description"),
+            "gem_name": request.form.get("gem_name"),
+            "gem_description": request.form.get("gem_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
-        mongo.db.gems.insert_one(task)
+        mongo.db.gems.insert_one(gem)
         flash("Hidden Gem Successfully Added")
         return redirect(url_for("get_gems"))
 
@@ -125,29 +125,29 @@ def add_gem():
     return render_template("add_gem.html", categories=categories)
 
 
-@app.route("/edit_task/<task_id>", methods=["GET", "POST"])
-def edit_task(task_id):
+@app.route("/edit_gem/<gem_id>", methods=["GET", "POST"])
+def edit_gem(gem_id):
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
         submit = {
             "category_name": request.form.get("category_name"),
-            "task_name": request.form.get("task_name"),
-            "task_description": request.form.get("task_description"),
+            "gem_name": request.form.get("gem_name"),
+            "gem_description": request.form.get("gem_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
-        mongo.db.gems.update({"_id": ObjectId(task_id)}, submit)
+        mongo.db.gems.update({"_id": ObjectId(gem_id)}, submit)
         flash("Hidden Gem Successfully Updated")
 
-    task = mongo.db.gems.find_one({"_id": ObjectId(task_id)})
+    gem = mongo.db.gems.find_one({"_id": ObjectId(gem_id)})
     categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template("edit_task.html", task=task, categories=categories)
+    return render_template("edit_gem.html", gem=gem, categories=categories)
 
 
-@app.route("/delete_task/<task_id>")
-def delete_task(task_id):
-    mongo.db.gems.remove({"_id": ObjectId(task_id)})
+@app.route("/delete_gem/<gem_id>")
+def delete_gem(gem_id):
+    mongo.db.gems.remove({"_id": ObjectId(gem_id)})
     flash("Hidden Gem Successfully Deleted")
     return redirect(url_for("get_gems"))
 
