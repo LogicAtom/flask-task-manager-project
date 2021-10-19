@@ -20,15 +20,15 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_gems")
 def get_gems():
-    tasks = list(mongo.db.tasks.find())
-    return render_template("tasks.html", tasks=tasks)
+    gems = list(mongo.db.gems.find())
+    return render_template("gems.html", gems=gems)
 
 
 @app.route("/search", methods=["GET", "POST"])
 def search():
     query = request.form.get("query")
-    tasks = list(mongo.db.tasks.find({"$text": {"$search": query}}))
-    return render_template("tasks.html", tasks=tasks)
+    gems = list(mongo.db.gems.find({"$text": {"$search": query}}))
+    return render_template("gems.html", gems=gems)
 
 
 @app.route("/register", methods=["GET", "POST"])
@@ -117,7 +117,7 @@ def add_gem():
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
-        mongo.db.tasks.insert_one(task)
+        mongo.db.gems.insert_one(task)
         flash("Hidden Gem Successfully Added")
         return redirect(url_for("get_gems"))
 
@@ -137,17 +137,17 @@ def edit_task(task_id):
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
-        mongo.db.tasks.update({"_id": ObjectId(task_id)}, submit)
+        mongo.db.gems.update({"_id": ObjectId(task_id)}, submit)
         flash("Hidden Gem Successfully Updated")
 
-    task = mongo.db.tasks.find_one({"_id": ObjectId(task_id)})
+    task = mongo.db.gems.find_one({"_id": ObjectId(task_id)})
     categories = mongo.db.categories.find().sort("category_name", 1)
     return render_template("edit_task.html", task=task, categories=categories)
 
 
 @app.route("/delete_task/<task_id>")
 def delete_task(task_id):
-    mongo.db.tasks.remove({"_id": ObjectId(task_id)})
+    mongo.db.gems.remove({"_id": ObjectId(task_id)})
     flash("Hidden Gem Successfully Deleted")
     return redirect(url_for("get_gems"))
 
