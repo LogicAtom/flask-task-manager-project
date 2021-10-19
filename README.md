@@ -2,6 +2,17 @@
 
 This is a database project for the school I am attending, Code Institute. This project is for Milestone 3 (data-centric backend development). Its purpose is to prove that I can code backend Python logic.
  
+## CHANGES
+MongoDB database rename
+
+logged into mongo cli
+
+command:
+
+show dbs
+
+
+
 ## UX
  
 Basic website for showcasing data manipulation via CRUD in MongoDB. JQuery is used for the RWD hamburger side pop-out menu. MaterializeCSS is used for an increased overall appearance. MaterializeCSS was chosen over Bootstrap as I am not a fan of Bootstrap because it makes every website look identical and not custom, this is a personal preference of mine.
