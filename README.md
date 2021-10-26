@@ -73,6 +73,15 @@ Feature 2  - User authorization
 Feature 3  - RWD
  
 ## Testing
+MongoDB Code Testing:
+https://mongoplayground.net/
+
+Python Code Testing:
+https://pythontutor.com/
+
+
+
+
 Result = Passed https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F
 <br />
 
@@ -117,9 +126,10 @@ http://developers.google.com/speed/pagespeed/insights/
 | ------ | ------ |
 | [HTML5](https://en.wikipedia.org/wiki/HTML5/ "HTML5") | [Jinja2](https://palletsprojects.com/p/jinja/ "Jinja2") |
 | [Python3](https://www.python.org/ "Python3") | [Flask](https://flask.palletsprojects.com/en/2.0.x/ "Flask") |
-| | [Django](https://www.djangoproject.com/ "Django") |
+| | [Django](https://www.djangoproject.com/ "Django") | 
+| | [CSS3](https://materializecss.com/ "MaterializeCSS") |
 
-## API
+## APIs
 PyMongo - https://docs.mongodb.com/drivers/pymongo/
 
 ## Database
@@ -141,7 +151,7 @@ task_name:"Snowshoe, WV"<br />
 task_description:"Special event, snow tractor ride to candlelight dinner"<br />
 is_urgent:"off"<br />
 due_date:"01 February, 2005"<br />
-created_by:"admin"<br />
+created_by:"user"<br />
 users > username : value<br />
         password : value<br />
 
