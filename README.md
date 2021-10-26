@@ -151,6 +151,7 @@ Materialize CSS - https://materializecss.com/
 Amazon Web Services - https://aws.amazon.com/
 [Git](https://git-scm.com/ "Git") : For Version Control System
 [GitPod](https://gitpod.io/ "GitPod"): For Direct Interacting with Github
+FontAwesome.com
 
 ### Credits and Acknowledgements
 
