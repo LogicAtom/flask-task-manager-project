@@ -20,7 +20,7 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_gems")
 def get_gems():
-    """ def gem_gems is the default site url """
+    """ def gem_gems is the default site url., and gems is the collection name """
     gems = list(mongo.db.gems.find())
     return render_template("gems.html", gems=gems)
 
@@ -61,6 +61,7 @@ def register():
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
+    """ def login function, to LogIn to the database to access CRUD """
     if request.method == "POST":
         # check if username exists in db
         existing_user = mongo.db.users.find_one(
