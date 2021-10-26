@@ -26,6 +26,8 @@ def get_gems():
 
 @app.route("/search", methods=["GET", "POST"])
 def search():
+
+    """ def search to query mongodb gems collection """
     query = request.form.get("query")
     gems = list(mongo.db.gems.find({"$text": {"$search": query}}))
     return render_template("gems.html", gems=gems)
