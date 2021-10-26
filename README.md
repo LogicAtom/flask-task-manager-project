@@ -163,6 +163,10 @@ Amazon Web Services - https://aws.amazon.com/
 [GitPod](https://gitpod.io/ "GitPod"): For Direct Interacting with Github
 FontAwesome.com
 
+
+### Errors during Development
+GitPod latency crash > my quick fix = change networks, and make Repo Private
+
 ### Credits and Acknowledgements
 
 Anthony Kozloski - Coder
