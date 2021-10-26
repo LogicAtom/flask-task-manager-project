@@ -20,13 +20,13 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_gems")
 def get_gems():
+    """ def gem_gems is the default site url """
     gems = list(mongo.db.gems.find())
     return render_template("gems.html", gems=gems)
 
 
 @app.route("/search", methods=["GET", "POST"])
 def search():
-
     """ def search to query mongodb gems collection """
     query = request.form.get("query")
     gems = list(mongo.db.gems.find({"$text": {"$search": query}}))
@@ -35,6 +35,7 @@ def search():
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
+    """ def register to Register an account on mongodb gems collection """
     if request.method == "POST":
         # check if username already exists in db
         existing_user = mongo.db.users.find_one(
