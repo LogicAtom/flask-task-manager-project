@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h3 class="light-green-text text-darken-4 center-align">Add Hidden Gem</h3>
+<h3 class="light-green-text text-darken-4 center-align">Add task</h3>
 
 <div class="row card-panel grey lighten-5">
-    <form class="col s12" method="POST" action="{{ url_for('add_gem') }}">
+    <form class="col s12" method="POST" action="{{ url_for('add_task') }}">
         <!-- category selection -->
         <div class="row">
             <div class="input-field col s12">
@@ -18,21 +18,22 @@
                 <label for="category_name">Category</label>
             </div>
         </div>
-        <!-- Hidden Gem Name -->
+        <!-- Hidden task Name -->
         <div class="row">
             <div class="input-field col s12">
                 <i class="fas fa-pencil-alt prefix light-green-text text-darken-4"></i>
-                <input id="gem_name" name="gem_name" minlength="5" maxlength="50" type="text" class="validate" required>
-                <label for="gem_name">Hidden Gem Name</label>
+                <input id="task_name" name="task_name" minlength="5" maxlength="50" type="text" class="validate"
+                    required>
+                <label for="task_name">Hidden task Name</label>
             </div>
         </div>
-        <!-- Hidden Gem Description -->
+        <!-- Hidden task Description -->
         <div class="row">
             <div class="input-field col s12">
                 <i class="fas fa-align-left prefix light-green-text text-darken-4"></i>
-                <textarea id="gem_description" name="gem_description" minlength="5" maxlength="200"
+                <textarea id="task_description" name="task_description" minlength="5" maxlength="200"
                     class="materialize-textarea validate" required></textarea>
-                <label for="gem_description">Details, Description, Location, Group Size, etc.</label>
+                <label for="task_description">Details, Description, Location, Group Size, etc.</label>
             </div>
         </div>
         <!-- Visit or Event Date picker -->
@@ -60,7 +61,7 @@
         <div class="row">
             <div class="col s12 center-align">
                 <button type="submit" class="btn-large light-green darken-1 text-shadow">
-                    Add Hidden Gem <i class="fas fa-plus-square right"></i>
+                    Add Hidden task <i class="fas fa-plus-square right"></i>
                 </button>
             </div>
         </div>

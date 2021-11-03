@@ -18,24 +18,24 @@ mongo = PyMongo(app)
 
 
 @app.route("/")
-@app.route("/get_gems")
-def get_gems():
-    """ def gem_gems is the default site url., and gems is the collection name """
-    gems = list(mongo.db.gems.find())
-    return render_template("gems.html", gems=gems)
+@app.route("/get_tasks")
+def get_tasks():
+    """ def task_tasks is the default site url., and tasks is the collection name """
+    tasks = list(mongo.db.tasks.find())
+    return render_template("tasks.html", tasks=tasks)
 
 
 @app.route("/search", methods=["GET", "POST"])
 def search():
-    """ def search to query mongodb gems collection """
+    """ def search to query mongodb tasks collection """
     query = request.form.get("query")
-    gems = list(mongo.db.gems.find({"$text": {"$search": query}}))
-    return render_template("gems.html", gems=gems)
+    tasks = list(mongo.db.tasks.find({"$text": {"$search": query}}))
+    return render_template("tasks.html", tasks=tasks)
 
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
-    """ def register to Register an account on mongodb gems collection """
+    """ def register to Register an account on mongodb tasks collection """
     if request.method == "POST":
         # check if username already exists in db
         existing_user = mongo.db.users.find_one(
@@ -109,51 +109,51 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/add_gem", methods=["GET", "POST"])
-def add_gem():
+@app.route("/add_task", methods=["GET", "POST"])
+def add_task():
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
-        gem = {
+        task = {
             "category_name": request.form.get("category_name"),
-            "gem_name": request.form.get("gem_name"),
-            "gem_description": request.form.get("gem_description"),
+            "task_name": request.form.get("task_name"),
+            "task_description": request.form.get("task_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
-        mongo.db.gems.insert_one(gem)
-        flash("Hidden Gem Successfully Added")
-        return redirect(url_for("get_gems"))
+        mongo.db.tasks.insert_one(task)
+        flash("Task Successfully Added")
+        return redirect(url_for("get_tasks"))
 
     categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template("add_gem.html", categories=categories)
+    return render_template("add_task.html", categories=categories)
 
 
-@app.route("/edit_gem/<gem_id>", methods=["GET", "POST"])
-def edit_gem(gem_id):
+@app.route("/edit_task/<task_id>", methods=["GET", "POST"])
+def edit_task(task_id):
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
         submit = {
             "category_name": request.form.get("category_name"),
-            "gem_name": request.form.get("gem_name"),
-            "gem_description": request.form.get("gem_description"),
+            "task_name": request.form.get("task_name"),
+            "task_description": request.form.get("task_description"),
             "is_urgent": is_urgent,
             "due_date": request.form.get("due_date"),
             "created_by": session["user"]
         }
-        mongo.db.gems.update({"_id": ObjectId(gem_id)}, submit)
-        flash("Hidden Gem Successfully Updated")
+        mongo.db.tasks.update({"_id": ObjectId(task_id)}, submit)
+        flash("Task Successfully Updated")
 
-    gem = mongo.db.gems.find_one({"_id": ObjectId(gem_id)})
+    task = mongo.db.tasks.find_one({"_id": ObjectId(task_id)})
     categories = mongo.db.categories.find().sort("category_name", 1)
-    return render_template("edit_gem.html", gem=gem, categories=categories)
+    return render_template("edit_task.html", task=task, categories=categories)
 
 
-@app.route("/delete_gem/<gem_id>")
-def delete_gem(gem_id):
-    mongo.db.gems.remove({"_id": ObjectId(gem_id)})
-    flash("Hidden Gem Successfully Deleted")
-    return redirect(url_for("get_gems"))
+@app.route("/delete_task/<task_id>")
+def delete_task(task_id):
+    mongo.db.tasks.remove({"_id": ObjectId(task_id)})
+    flash("Task Successfully Deleted")
+    return redirect(url_for("get_tasks"))
 
 
 @app.route("/get_categories")
