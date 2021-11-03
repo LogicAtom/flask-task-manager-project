@@ -1,3 +1,18 @@
+# MAJOR CHANGES
+Redesigning project into a general usage Task Manager
+
+file names changes:
+
+get_gems to get_tasks
+
+gems to tasks
+
+gem to task
+
+JQuery Form Validation (custom error messages)
+
+npm install jquery
+
 # Hidden Gems
 
 This is a database project for the school I am attending, Code Institute. This project is for Milestone 3 (data-centric backend development). Its purpose is to prove that I can code backend Python logic.
