@@ -13,7 +13,7 @@ JQuery Form Validation (custom error messages)
 
 npm install jquery
 
-# Hidden Gems
+# Task Manager
 
 This is a database project for the school I am attending, Code Institute. This project is for Milestone 3 (data-centric backend development). Its purpose is to prove that I can code backend Python logic.
  
@@ -48,7 +48,7 @@ https://stackoverflow.com/a/48372759/13254826
 Now I need to rename the 'tasks' collection to 'gems'...
 <br />
 <code>use ms3_db</code> to switch to that database., then type this to rename the collection<br />
-<code>db.tasks.renameCollection('gems')</code><br />
+<code>db.tasks.renameCollection('tasks')</code><br />
 https://stackoverflow.com/a/8732666/13254826
 <br />
 
@@ -69,15 +69,15 @@ Basic website for showcasing data manipulation via CRUD in MongoDB. JQuery is us
 CRUD functions are handled via buttons for UI simplicity.
 
 ### User Stories/Extended Scenarios
-    Anyone interested in locating Hidden Gems, which are local locations that don't get much if any publication, but are the most amazing places.
-
-    The average user to this site could Register to become a Community Member and Login to access database features that are only available to registered users.
+    Average person looking to add Tasks into a MongoDB database with a calendar due date and urgent or non-urgent switch.
 
     Editing and Deleting posts directly communicates with MongoDB and only the post creator can see those buttons for their own posts.
 
     Everyone can view all posts.
 ******
-### Wireframes, mockups, diagrams etc. that were created as part of the design process.
+### Wireframes, mockups, diagrams etc. that were created as part of the design process. 
+PLEASE NOTE THAT THIS SECTION NEEDS UPDATING
+
 https://github.com/LogicAtom/TargetShooter/tree/main/wireframes/versions/version2
 
 Documentation for wireframes: I have included the wireframes in sequential order to show my direction for the layout, even though the final product doesn't use some of the elements. Its pretty self explanatory.
