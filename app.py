@@ -78,12 +78,12 @@ def login():
                             "profile", username=session["user"]))
             else:
                 # invalid password match
-                flash("Incorrect Username and/or Password")
+                flash("Incorrect Password Entered")
                 return redirect(url_for("login"))
 
         else:
             # username doesn't exist
-            flash("Incorrect Username and/or Password")
+            flash("Incorrect Username Entered")
             return redirect(url_for("login"))
 
     return render_template("login.html")
