@@ -275,13 +275,7 @@ Amazon Web Services - https://aws.amazon.com/ = Database Connector <br />
 [GitPod](https://gitpod.io/ "GitPod") : IDE <br />
 FontAwesome.com = Custom Icons
 
-### Credits and Acknowledgements
-
-## 🧑🏻 Code Developer
-
-**Anthony Kozloski**
-
-- 🌌 [Profile](https://github.com/LogicAtom "Anthony Kozloski")
+## Credits and Acknowledgements
 
 Code Institute - FullStack Boot Camp - Most of the code and instructions was written by Code Institute, I cannot take credit for the code, only the customization of the code is actually mine.
 <br />
@@ -304,4 +298,11 @@ Charleston County Public Library - Thank you for letting me borrow around 100 bo
 
 ### Personal Acknowledgements
 + Audrey Kozloski: mom ...thanks for all those amazing home cooked meals!  yum :)
-+ Rosie(hamster/ninja warrior): my 2am school break entertainer - She passed away September 2021, you will be missed my friend.
++ Rosie(hamster/ninja warrior): my 2am school break entertainer 
+
+
+## 🧑🏻 Code Developer
+
+**Anthony Kozloski**
+
+- 🌌 [Profile](https://github.com/LogicAtom "Anthony Kozloski")
