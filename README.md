@@ -1,4 +1,27 @@
-# MAJOR CHANGES
+# Task Manager
+
+About: This is a database project for the school I am attending, Code Institute. This project is for Milestone 3 (data-centric backend development). 
+
+Purpose: To provide a database that is intuitive to use and easy to interact with while looking good and being mobile web responsive.
+ 
+## 🚀 Features
+
+- [x] MongoDB CRUD functionality
+
+- [x] CSS enhanced GUI
+
+- [x] Security
+
+- [x] Mobile Responsive web design with JQuery hamburger menu
+
+- [x] Add Documentation
+
+### 🎊  Security Features
+Environment variable <br />
+.gitignore <br />
+User Authentication <br />
+
+## MAJOR CHANGES
 Redesigning project into a general usage Task Manager
 
 file names changes:
@@ -13,11 +36,7 @@ JQuery Form Validation (custom error messages)
 
 npm install jquery
 
-# Task Manager
-
-This is a database project for the school I am attending, Code Institute. This project is for Milestone 3 (data-centric backend development). Its purpose is to prove that I can code backend Python logic.
- 
-## CHANGES
+### CHANGES
 MongoDB database rename
 
 logged into mongo cli
@@ -40,6 +59,7 @@ use task_manager
 </code><br />
 === SUCCESS ...copied Database named: task_manager, to, a new Database, named: ms3_db
 <br />
+Database help answers:<br />
 https://stackoverflow.com/questions/9201832/how-do-you-rename-a-mongodb-database/57811701#57811701
 https://stackoverflow.com/a/48372759/13254826
 ''''
@@ -82,168 +102,6 @@ https://github.com/LogicAtom/TargetShooter/tree/main/wireframes/versions/version
 
 Documentation for wireframes: I have included the wireframes in sequential order to show my direction for the layout, even though the final product doesn't use some of the elements. Its pretty self explanatory.
 
-#### Features
-Feature 1  - MongoDB CRUD functionality
-Feature 2  - User authorization
-Feature 3  - RWD
- 
-## Testing
-MongoDB Code Testing:
-https://mongoplayground.net/
-
-Python Code Testing:
-https://pythontutor.com/
-
-
-
-
-Result = Passed https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F
-<br />
-
-Result = Errors(external libraries only) https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F&profile=none&usermedium=all&warning=1&vextwarning=&lang=en
-
-<br />
-Performance Testing:
-<br />
-Result=Score 93
-<br />
-https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F
-
-<br />
-I have performed extensive testing on each and every step of this project.
-I had 3 other testers with different devices test as well. = Results, fully functional.
-
-Compatibility Testing:
-
-http://mobilehtml5.org/
-
-Code Errors Testing:
-
-DevTools > Toggle Device Toolbar
-
-https://www.lambdatest.com/
-
-https://jshint.com/
-
-Validation Testing:
-
-http://validator.w3.org/ (HTML5)
-<br />
-https://jigsaw.w3.org/css-validator/ (CSS3)
-
-Performance Testing:
-
-http://developers.google.com/speed/pagespeed/insights/
-
-## Technologies Used
-
-| Primary Languages | Template Engines & Frameworks |
-| ------ | ------ |
-| [HTML5](https://en.wikipedia.org/wiki/HTML5/ "HTML5") | [Jinja2](https://palletsprojects.com/p/jinja/ "Jinja2") |
-| [Python3](https://www.python.org/ "Python3") | [Flask](https://flask.palletsprojects.com/en/2.0.x/ "Flask") |
-| | [Django](https://www.djangoproject.com/ "Django") | 
-| | [CSS3](https://materializecss.com/ "MaterializeCSS") |
-
-## APIs
-PyMongo - https://docs.mongodb.com/drivers/pymongo/
-
-## Database
-MongoDB - https://www.mongodb.com/
-
-| Servers | My Live Code |
-| ------ | ------ |
-| [GitHub](https://github.com/ "GitHub") | [Source Code](https://github.com/LogicAtom/flask-task-manager-project "Source Code") |
-| [Heroku](https://www.heroku.com/platform "Heroku") | [My Live Site](http://flask-task-manager-project-koz.herokuapp.com "My Live Site") |
-
-## Data Models
-MongoDB Document Modeling<br />
-Key: Value pairs<br /><br />
-Collection Name: task_manager<br />
-categories > category_name : value<br />
-tasks > category_name:"Travel"<br />
-example::<br />
-task_name:"Snowshoe, WV"<br />
-task_description:"Special event, snow tractor ride to candlelight dinner"<br />
-is_urgent:"off"<br />
-due_date:"01 February, 2005"<br />
-created_by:"user"<br />
-users > username : value<br />
-        password : value<br />
-
-#### Assistant Services and Drivers
-NodeJS - https://nodejs.org/en/download/
-JQuery - https://jqueryui.com/
-Materialize CSS - https://materializecss.com/
-Amazon Web Services - https://aws.amazon.com/
-[Git](https://git-scm.com/ "Git") : For Version Control System
-[GitPod](https://gitpod.io/ "GitPod"): For Direct Interacting with Github
-FontAwesome.com
-
-
-### Errors during Development
-GitPod latency crash > my quick fix = change networks, and make Repo Private
-
-### Credits and Acknowledgements
-
-Anthony Kozloski - Coder
-
-Code Institute - FullStack Boot Camp - Most of the code and instructions was written by Code Institute, I cannot take credit for the code, only the customization of the code is actually mine.
-<br />
-Code Institute - for having me create a Python3 - Data Centric Development project
-
-Code Institute - Tutors for all your help..you rock!
-<br />
-Code Institute - Student Care Team and Advisers..You are the most amazing people and I couldn't get this far without you!
-
-### Educational Acknowledgements
-Palmetto Goodwill - In collaboration with TTC - Grant Funder (my beautiful angels!)
-<br />
-Code Institute - Web Development School - You are the best Teachers!
-<br />
-Ed2Go/Cengage - Online Courses - You brought it all together, and offered the course. Awesome!
-<br />
-Charleston County Public Library - 
-
-
-DevTools > Toggle Device Toolbar
-
-https://www.lambdatest.com/
-
-http://validator.w3.org/
-
-
-http://developers.google.com/speed/pagespeed/insights/
-
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
-
-https://ian.hixie.ch/ (The Editor of the HTML5 Spec)
-
-I would personally like to thank my friends and family for putting up with me during the stress of building this project.
-
-+ Audrey Kozloski: mom ...thanks for all those amazing home cooked meals!  yum :)
-+ Rosie(hamster/ninja warrior): my 2am school break entertainer - She passed away September 2021, you will be missed my friend.
-
-## 🚀 Features
-
-You are just one command away to start your next project
-
-- **Create Github Repo**
-
-- **Create Organization Repo**
-
-- **Open Project in IDE**
-
-## 🦋 Prerequisite
-
-- [Python](https://www.python.org/ "Python") Installed
-
-- Python Basics Understanding
-
-- [Git](https://git-scm.com/ "Git OFficial") Installed
-
-- Git Basic Understanding
-
-- [GH](https://cli.github.com/ "Github CLI") Installed
 
 ## 🛠️ Installation Steps
 
@@ -263,7 +121,7 @@ cd flask-task-manager-project.htm
 
 4. Run the app using terminal
 
-**🎇 You are Ready to Go!**
+The dependancies should automatically install via the "requirements.txt" file, but just in case I have included the methods for manually installing the dependancies written directly below as pip3:
 
 ## Pip3 Installs
 pip3 install dnspython
@@ -275,11 +133,36 @@ pip3 install flask_pymongo
 pip3 install Flask
 <br />
 
-## CLI
+## Deployment/Environments
+
+https://github.com/LogicAtom/flask-task-manager-project/deployments
+
+Deployment via GitPod using git 
+Alternate Deployment via Microsoft Visual Studio Code
+
+CLONING:  https://github.com/LogicAtom/flask-task-manager-project.git (or) gh repo clone LogicAtom/flask-task-manager-project
+via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/flask-task-manager-project
+Download .zip file:  https://github.com/LogicAtom/flask-task-manager-project/archive/refs/heads/main.zip
+
+### Terminal Shell commands
 python3 <br />
 python3 app.py (to start a development server)
 
-## ❗ Available Commands
+### 🦋 Prerequisite
+
+- [Python](https://www.python.org/ "Python3") Installed
+
+- Python Basics Understanding
+
+- [Git](https://git-scm.com/ "Git OFficial") Installed
+
+- Git Basic Understanding
+
+- [MongoDB](https://www.mongodb.com/ "MongoDB Atlas") Installed
+
+**🎇 You are Ready to Go!**
+
+### ❗ Available Commands
 
 In the project directory, you can run:
 
@@ -309,30 +192,90 @@ For creating an Organization Repo use this command and it will create an Organiz
 
 > If you pass any other option like `-pr` then the repo will be private otherwise it will be public
 
-## 👷 Built with
+## TESTING
 
-- [Python](https://www.python.org/ "Python"): as Main Coding Language for executing commands
+### Compatibility Testing:
 
-- [Batch](https://en.wikipedia.org/wiki/Batch_file "Batch") : For python file executor
+http://mobilehtml5.org/
 
-- [Github](https://github.com/ "Github") : For Repo Storage and source code management
+### Code Testing
+MongoDB Code Testing:
+https://mongoplayground.net/
 
-- [Git](https://git-scm.com/ "Git") : For Version Control System
+Python Code Testing:
+https://pythontutor.com/
 
-- [Github CLI](https://cli.github.com/ "Github CLI"): For Direct Interacting with Github
+Result = Passed https://validator.w3.org/nu/?showsource=yes&doc=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F
 
+Result = Errors(external libraries only) https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F&profile=none&usermedium=all&warning=1&vextwarning=&lang=en
 
-## 🎊 Future Updates
+### Code Errors Testing:
 
-- [x] Add project boilerplate automatically for different languages and frameworks
+DevTools > Toggle Device Toolbar
 
-- [] Add GUI
+https://www.lambdatest.com/
 
-- [x] Add Screenshots Folder
+https://jshint.com/
 
-- [] Add Project to WorkSpaces
+### Problems during Development
+GitPod latency crash > my quick fix = change networks, and make Repo Private
 
-- [] Add Documentations
+### Validation Testing:
+
+http://validator.w3.org/ (HTML5)
+
+https://jigsaw.w3.org/css-validator/ (CSS3)
+
+### Performance Testing:
+
+Result=Score 93
+
+https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fflask-task-manager-project-koz.herokuapp.com%2F
+
+## 👷 Built with these Technologies
+
+| Primary Languages | Template Engines & Frameworks |
+| ------ | ------ |
+| [HTML5](https://en.wikipedia.org/wiki/HTML5/ "HTML5") | [Jinja2](https://palletsprojects.com/p/jinja/ "Jinja2") |
+| [Python3](https://www.python.org/ "Python3") | [Flask](https://flask.palletsprojects.com/en/2.0.x/ "Flask") |
+| | [Django](https://www.djangoproject.com/ "Django") | 
+| | [CSS3](https://materializecss.com/ "MaterializeCSS") |
+
+### APIs
+PyMongo - https://docs.mongodb.com/drivers/pymongo/
+
+### Database
+MongoDB - https://www.mongodb.com/
+
+| Servers | My Live Code |
+| ------ | ------ |
+| [GitHub](https://github.com/ "GitHub") | [Source Code](https://github.com/LogicAtom/flask-task-manager-project "Source Code") |
+| [Heroku](https://www.heroku.com/platform "Heroku") | [My Live Site](http://flask-task-manager-project-koz.herokuapp.com "My Live Site") |
+
+## Data Models
+MongoDB Document Modeling<br />
+Key : Value pairs<br /><br />
+Collection Name : task_manager<br />
+categories > category_name : value<br />
+tasks > category_name : "Travel"<br />
+task_name:"Snowshoe, WV"<br />
+task_description : "Special event, snow tractor ride to candlelight dinner"<br />
+is_urgent : "off"<br />
+due_date : "01 February, 2005"<br />
+created_by : "user"<br />
+users > username : value<br />
+        password : value<br />
+
+#### Assistant Services and Drivers
+NodeJS - https://nodejs.org/en/download/ = Dependency Manager<br />
+JQuery - https://jqueryui.com/ = Hamburger Mobile Side Menu<br />
+Materialize CSS - https://materializecss.com/ = Enhance UI/UX<br />
+Amazon Web Services - https://aws.amazon.com/ = Database Connector <br />
+[Git](https://git-scm.com/ "Git") : Version Control System <br />
+[GitPod](https://gitpod.io/ "GitPod") : IDE <br />
+FontAwesome.com = Custom Icons
+
+### Credits and Acknowledgements
 
 ## 🧑🏻 Code Developer
 
@@ -340,13 +283,25 @@ For creating an Organization Repo use this command and it will create an Organiz
 
 - 🌌 [Profile](https://github.com/LogicAtom "Anthony Kozloski")
 
-## Deployment/Environments
+Code Institute - FullStack Boot Camp - Most of the code and instructions was written by Code Institute, I cannot take credit for the code, only the customization of the code is actually mine.
+<br />
+Code Institute - for having me create a Python3 - Data Centric Development project
 
-https://github.com/LogicAtom/flask-task-manager-project/deployments
+Code Institute - Tutors for all your help..you rock!
+<br />
+Code Institute - Student Care Team and Advisers..You are the most amazing people and I couldn't get this far without you!
 
-Deployment via GitPod using git 
-Alternate Deployment via Microsoft Visual Studio Code
+stackoverflow - For all of the custom questions and answers.
 
-CLONING:  https://github.com/LogicAtom/flask-task-manager-project.git (or) gh repo clone LogicAtom/flask-task-manager-project
-via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/flask-task-manager-project
-Download .zip file:  https://github.com/LogicAtom/flask-task-manager-project/archive/refs/heads/main.zip
+### Educational Acknowledgements
+Palmetto Goodwill - In collaboration with TTC - Grant Funder (my beautiful angels!)
+<br />
+Code Institute - Web Development School - You are the best Teachers!
+<br />
+Ed2Go/Cengage - Online Courses - You brought it all together, and offered the course. Awesome!
+<br />
+Charleston County Public Library - Thank you for letting me borrow around 100 books!
+
+### Personal Acknowledgements
++ Audrey Kozloski: mom ...thanks for all those amazing home cooked meals!  yum :)
++ Rosie(hamster/ninja warrior): my 2am school break entertainer - She passed away September 2021, you will be missed my friend.
