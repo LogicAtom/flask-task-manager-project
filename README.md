@@ -144,6 +144,21 @@ CLONING:  https://github.com/LogicAtom/flask-task-manager-project.git (or) gh re
 via GitHub Desktop: x-github-client://openRepo/https://github.com/LogicAtom/flask-task-manager-project
 Download .zip file:  https://github.com/LogicAtom/flask-task-manager-project/archive/refs/heads/main.zip
 
+To log into the Heroku toolbelt CLI:
+
+1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
+2. Scroll down to the *API Key* and click *Reveal*
+3. Copy the key
+4. In Gitpod, from the terminal, run `heroku_config`
+5. Paste in your API key when asked
+
+You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+
+| Servers | My Live Code |
+| ------ | ------ |
+| [GitHub](https://github.com/ "GitHub") | [Source Code](https://github.com/LogicAtom/flask-task-manager-project "Source Code") |
+| [Heroku](https://www.heroku.com/platform "Heroku") | [My Live Site](http://flask-task-manager-project-koz.herokuapp.com "My Live Site") |
+
 ### Terminal Shell commands
 python3 <br />
 python3 app.py (to start a development server)
@@ -246,11 +261,6 @@ PyMongo - https://docs.mongodb.com/drivers/pymongo/
 
 ### Database
 MongoDB - https://www.mongodb.com/
-
-| Servers | My Live Code |
-| ------ | ------ |
-| [GitHub](https://github.com/ "GitHub") | [Source Code](https://github.com/LogicAtom/flask-task-manager-project "Source Code") |
-| [Heroku](https://www.heroku.com/platform "Heroku") | [My Live Site](http://flask-task-manager-project-koz.herokuapp.com "My Live Site") |
 
 ## Data Models
 MongoDB Document Modeling<br />
