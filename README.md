@@ -63,7 +63,7 @@ now shows:
 
 ## UX
  
-Basic website for showcasing data manipulation via CRUD in MongoDB. JQuery is used for the RWD hamburger side pop-out menu. MaterializeCSS is used for an increased overall appearance. MaterializeCSS was chosen over Bootstrap as I am not a fan of Bootstrap because it makes every website look identical and not custom, this is a personal preference of mine.
+Basic website for showcasing data manipulation via CRUD in MongoDB. JQuery is used for the RWD hamburger side pop-out menu. MaterializeCSS is used for an increased overall appearance.
 
 <br />
 CRUD functions are handled via buttons for UI simplicity.
@@ -171,6 +171,7 @@ users > username : value<br />
         password : value<br />
 
 #### Assistant Services and Drivers
+NodeJS - https://nodejs.org/en/download/
 JQuery - https://jqueryui.com/
 Materialize CSS - https://materializecss.com/
 Amazon Web Services - https://aws.amazon.com/
