@@ -8,13 +8,11 @@ from werkzeug.security import generate_password_hash, check_password_hash
 if os.path.exists("env.py"):
     import env
 
-
 app = Flask(__name__)
 
 app.config["MONGO_DBNAME"] = os.environ.get("MONGO_DBNAME")
 app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
 app.secret_key = os.environ.get("SECRET_KEY")
-app.config["WTF_CSRF_SECRET_KEY"] = os.environ.get("WTF_CSRF_SECRET_KEY")
 
 mongo = PyMongo(app)
 
@@ -37,7 +35,7 @@ def search():
 
 @app.route("/register", methods=["GET", "POST"])
 def register():
-    """ def register to Register an account on mongodb tasks collection """
+    """ Register an account on mongodb tasks collection """
     if request.method == "POST":
         # check if username already exists in db
         existing_user = mongo.db.users.find_one(
