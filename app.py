@@ -1,3 +1,4 @@
+""" import the os """
 import os
 from flask import (
     Flask, flash, render_template, redirect, request, session, url_for)
@@ -76,7 +77,7 @@ def login():
                 flash("Welcome, {}".format(
                     request.form.get("username")))
                 return redirect(url_for(
-                            "profile", username=session["user"]))
+                    "profile", username=session["user"]))
             else:
                 # invalid password match
                 flash("Incorrect Password Entered")
@@ -112,6 +113,7 @@ def logout():
 
 @app.route("/add_task", methods=["GET", "POST"])
 def add_task():
+    """ add a task into the database """
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
         task = {
@@ -132,6 +134,7 @@ def add_task():
 
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])
 def edit_task(task_id):
+    """ CRUD update aka edit a task """
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
         submit = {
@@ -152,6 +155,7 @@ def edit_task(task_id):
 
 @app.route("/delete_task/<task_id>")
 def delete_task(task_id):
+    """ CRUD delete a task from database """
     mongo.db.tasks.remove({"_id": ObjectId(task_id)})
     flash("Task Successfully Deleted")
     return redirect(url_for("get_tasks"))
@@ -159,12 +163,14 @@ def delete_task(task_id):
 
 @app.route("/get_categories")
 def get_categories():
+    """ Search database for category name """
     categories = list(mongo.db.categories.find().sort("category_name", 1))
     return render_template("categories.html", categories=categories)
 
 
 @app.route("/add_category", methods=["GET", "POST"])
 def add_category():
+    """ Admin method to create new categories in the db """
     if request.method == "POST":
         category = {
             "category_name": request.form.get("category_name")
@@ -178,6 +184,7 @@ def add_category():
 
 @app.route("/edit_category/<category_id>", methods=["GET", "POST"])
 def edit_category(category_id):
+    """ CRUD update category by id """
     if request.method == "POST":
         submit = {
             "category_name": request.form.get("category_name")
@@ -192,6 +199,7 @@ def edit_category(category_id):
 
 @app.route("/delete_category/<category_id>")
 def delete_category(category_id):
+    """ Admin CRUD delete category by id """
     mongo.db.categories.remove({"_id": ObjectId(category_id)})
     flash("Category Successfully Deleted")
     return redirect(url_for("get_categories"))
