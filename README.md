@@ -1,4 +1,5 @@
 # Task Manager
+Task Manager app, written in Python with Flask framework connected to MongoDB, fully functional CRUD and user authorization.
 
 About: This is a database project for the school I am attending, Code Institute. This project is for Milestone 3 (data-centric backend development). 
 
