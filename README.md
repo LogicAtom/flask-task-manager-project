@@ -76,7 +76,7 @@ https://github.com/LogicAtom/TargetShooter/tree/main/wireframes/versions/version
 
 Documentation for wireframes: I have included the wireframes in sequential order to show my direction for the layout, even though the final product doesn't use some of the elements. Its pretty self explanatory.
 
-## Data Models
+## Data Modeling
 
 https://dbdiagram.io/d/61872fd8d5d522682dfbc363
 

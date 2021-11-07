@@ -109,7 +109,8 @@ def profile():
 
     user_tasks = list(mongo.db.tasks.find({"created_by": session["user"]}))
 
-    return render_template("profile.html", username=username, user_tasks=user_tasks)
+    return render_template(
+        "profile.html", username=username, user_tasks=user_tasks)
 
 
 @app.route("/logout")
