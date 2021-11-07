@@ -244,15 +244,15 @@ https://dbdiagram.io/d/61872fd8d5d522682dfbc363
 
 <iframe width="560" height="315" src='https://dbdiagram.io/embed/61872fd8d5d522682dfbc363'> </iframe>
 
-MongoDB Document Modeling<br />
+MongoDB Document Modeling example<br />
 Key : Value pairs<br /><br />
 Collection Name : task_manager<br />
 categories > category_name : value<br />
-tasks > category_name : "Travel"<br />
-task_name:"Snowshoe, WV"<br />
-task_description : "Special event, snow tractor ride to candlelight dinner"<br />
+tasks > category_name : "Education"<br />
+task_name:"MS3-Python3_Flask_MongoDB"<br />
+task_description : "details"<br />
 is_urgent : "off"<br />
-due_date : "01 February, 2005"<br />
+due_date : "07 November, 2021"<br />
 created_by : "user"<br />
 users > username : value<br />
         password : value<br />
@@ -279,7 +279,7 @@ Code Institute - Student Care Team and Advisers..You are the most amazing people
 
 stackoverflow - For all of the custom questions and answers.
 
-Akshat Garg - My Mentor for Software Development from Code Institute ... Thank you so very much for everything!!
+Akshat Garg - My Mentor for Software Development from Code Institute ... Thank you so very much for everything!! ... Helping fix up my code for many sections including Session Cookies and Reworking some Flask code etc, and for introducing me to dbdiagrams.io !  :)
 
 https://dbdiagram.io/ - Data Modeling Software
 
