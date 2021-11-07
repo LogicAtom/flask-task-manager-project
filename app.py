@@ -105,7 +105,7 @@ def profile():
     # Write code here to show user tasks in the profile page
 
     username = mongo.db.users.find_one(
-        {"username": session["user"]}["username"])
+        {"username": session["user"]})["username"]
 
     user_tasks = list(mongo.db.tasks.find({"created_by": session["user"]}))
 
