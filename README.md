@@ -76,7 +76,24 @@ https://github.com/LogicAtom/TargetShooter/tree/main/wireframes/versions/version
 
 Documentation for wireframes: I have included the wireframes in sequential order to show my direction for the layout, even though the final product doesn't use some of the elements. Its pretty self explanatory.
 
-## Modeling
+## Data Models
+
+https://dbdiagram.io/d/61872fd8d5d522682dfbc363
+
+<iframe width="560" height="315" src='https://dbdiagram.io/embed/61872fd8d5d522682dfbc363'> </iframe>
+<br />
+MongoDB Document Modeling example<br />
+Key : Value pairs<br /><br />
+Collection Name : task_manager<br />
+categories > category_name : value<br />
+tasks > category_name : "Education"<br />
+task_name:"MS3-Python3_Flask_MongoDB"<br />
+task_description : "details"<br />
+is_urgent : "off"<br />
+due_date : "07 November, 2021"<br />
+created_by : "user"<br />
+users > username : value<br />
+        password : value<br />
 https://dbdiagram.io/
 
 ## 🛠️ Installation Steps
@@ -237,25 +254,6 @@ PyMongo - https://docs.mongodb.com/drivers/pymongo/
 
 ### Database
 MongoDB - https://www.mongodb.com/
-
-## Data Models
-
-https://dbdiagram.io/d/61872fd8d5d522682dfbc363
-
-<iframe width="560" height="315" src='https://dbdiagram.io/embed/61872fd8d5d522682dfbc363'> </iframe>
-
-MongoDB Document Modeling example<br />
-Key : Value pairs<br /><br />
-Collection Name : task_manager<br />
-categories > category_name : value<br />
-tasks > category_name : "Education"<br />
-task_name:"MS3-Python3_Flask_MongoDB"<br />
-task_description : "details"<br />
-is_urgent : "off"<br />
-due_date : "07 November, 2021"<br />
-created_by : "user"<br />
-users > username : value<br />
-        password : value<br />
 
 #### Assistant Services and Drivers
 NodeJS - https://nodejs.org/en/download/ = Dependency Manager<br />
