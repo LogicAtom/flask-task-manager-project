@@ -21,35 +21,9 @@ Environment variable <br />
 .gitignore <br />
 User Authentication <br />
 
-## MAJOR CHANGES
-Redesigning project into a general usage Task Manager
-
-file names changes:
-
-get_gems to get_tasks
-
-gems to tasks
-
-gem to task
-
-JQuery Form Validation (custom error messages)
-
-npm install jquery
-
-### CHANGES
-MongoDB database rename
-
-logged into mongo cli
-
-command:
-
-show dbs
-
-help
-
-use task_manager
-
 <br />
+
+### Database Queries and Changes
 '''''
 <code>db.getCollectionNames().forEach(function(collName) {
     db[collName].find().forEach(function(d){
@@ -65,10 +39,10 @@ https://stackoverflow.com/a/48372759/13254826
 ''''
 <br />
 
-Now I need to rename the 'tasks' collection to 'gems'...
+Now I need to rename the 'tasks' collection to 'task_manager'...
 <br />
 <code>use ms3_db</code> to switch to that database., then type this to rename the collection<br />
-<code>db.tasks.renameCollection('tasks')</code><br />
+<code>db.task_manager.renameCollection('task_manager')</code><br />
 https://stackoverflow.com/a/8732666/13254826
 <br />
 
@@ -78,7 +52,7 @@ show collections
 
 now shows:
 1. categories
-2. gems
+2. tasks
 3. users
 
 ## UX
@@ -102,6 +76,8 @@ https://github.com/LogicAtom/TargetShooter/tree/main/wireframes/versions/version
 
 Documentation for wireframes: I have included the wireframes in sequential order to show my direction for the layout, even though the final product doesn't use some of the elements. Its pretty self explanatory.
 
+## Modeling
+https://dbdiagram.io/
 
 ## 🛠️ Installation Steps
 
@@ -263,6 +239,11 @@ PyMongo - https://docs.mongodb.com/drivers/pymongo/
 MongoDB - https://www.mongodb.com/
 
 ## Data Models
+
+https://dbdiagram.io/d/61872fd8d5d522682dfbc363
+
+<iframe width="560" height="315" src='https://dbdiagram.io/embed/61872fd8d5d522682dfbc363'> </iframe>
+
 MongoDB Document Modeling<br />
 Key : Value pairs<br /><br />
 Collection Name : task_manager<br />
@@ -297,6 +278,11 @@ Code Institute - Tutors for all your help..you rock!
 Code Institute - Student Care Team and Advisers..You are the most amazing people and I couldn't get this far without you!
 
 stackoverflow - For all of the custom questions and answers.
+
+Akshat Garg - My Mentor for Software Development from Code Institute ... Thank you so very much for everything!!
+
+https://dbdiagram.io/ - Data Modeling Software
+
 
 ### Educational Acknowledgements
 Palmetto Goodwill - In collaboration with TTC - Grant Funder (my beautiful angels!)
