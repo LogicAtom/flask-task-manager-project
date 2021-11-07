@@ -14,3 +14,10 @@
     margin: 5px;
     line-height: 42px;
 }
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: darkblue;
+    color: white;
+}
