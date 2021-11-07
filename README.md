@@ -70,7 +70,7 @@ CRUD functions are handled via buttons for UI simplicity.
 
     Everyone can view all posts.
 ******
-### Wireframes, mockups, diagrams etc. that were created as part of the design process. 
+### Screenshots, wireframes, data modeling, diagrams etc. that were created as part of the design process. 
 
 https://github.com/LogicAtom/flask-task-manager-project/tree/main/static/screenshots
 

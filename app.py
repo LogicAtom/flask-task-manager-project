@@ -20,7 +20,7 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_tasks")
 def get_tasks():
-    """ def get_tasks is the default site url."""
+    """ def _tasks is the default site url."""
     tasks = list(mongo.db.tasks.find())
     return render_template("tasks.html", tasks=tasks)
 
@@ -117,7 +117,7 @@ def profile():
 def logout():
     """ logout to remove user from session cookie """
     flash("You have been logged out")
-    session.pop("user")
+    session.pop["user"]
     return redirect(url_for("login"))
 
 
