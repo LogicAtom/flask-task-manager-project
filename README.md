@@ -264,10 +264,12 @@ Amazon Web Services - https://aws.amazon.com/ = Database Connector <br />
 [GitPod](https://gitpod.io/ "GitPod") : IDE <br />
 FontAwesome.com = Custom Icons<br />
 Random Keygen https://randomkeygen.com/
+Favicon = https://www.favicon.cc/?action=icon&file_id=957941
+Data Modeling Software = https://dbdiagram.io/
 
 ## Credits and Acknowledgements
 
-Code Institute - FullStack Boot Camp - Most of the code and instructions was written by Code Institute, I cannot take credit for the code, only the customization of the code is actually mine.
+[Code Institute](https://codeinstitute.net/ "Code Institute")Code Institute - FullStack Boot Camp - Most of the code and instructions was written by Code Institute, I cannot take credit for the code, only the customization of the code is actually mine.
 <br />
 Code Institute - for having me create a Python3 - Data Centric Development project
 
@@ -278,8 +280,6 @@ Code Institute - Student Care Team and Advisers..You are the most amazing people
 stackoverflow - For all of the custom questions and answers.
 
 Akshat Garg - My Mentor for Software Development from Code Institute ... Thank you so very much for everything!! ... Helping fix up my code for many sections including Session Cookies and Reworking some Flask code etc, and for introducing me to dbdiagrams.io !  :)
-
-https://dbdiagram.io/ - Data Modeling Software
 
 
 ### Educational Acknowledgements
