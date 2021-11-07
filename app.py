@@ -113,7 +113,7 @@ def profile():
         "profile.html", username=username, user_tasks=user_tasks)
 
 
-@app.route("/logout")
+@app.route("/login")
 def logout():
     """ logout to remove user from session cookie """
     flash("You have been logged out")
