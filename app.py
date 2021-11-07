@@ -117,8 +117,10 @@ def profile():
 def logout():
     """ logout to remove user from session cookie """
     flash("You have been logged out")
-    app.logout("user")
+    session.pop("user")
     return redirect(url_for("login"))
+
+    return render_template("login.html")
 
 
 @app.route("/task/add", methods=["GET", "POST"])
