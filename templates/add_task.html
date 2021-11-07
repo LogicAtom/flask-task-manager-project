@@ -3,12 +3,12 @@
 
 <h3 class="indigo-text text-darken-4 center-align">Add task</h3>
 
-<div class="row card-panel grey darken-5">
+<div class="row card-panel grey lighten-5">
     <form class="col s12" method="POST" action="{{ url_for('add_task') }}">
         <!-- category selection -->
         <div class="row">
             <div class="input-field col s12">
-                <i class="fas fa-folder-open prefix #1a237e indigo darken-4"></i>
+                <i class="fas fa-folder-open prefix indigo darken-4"></i>
                 <select id="category_name" name="category_name" class="validate" required>
                     <option value="" disabled selected>Choose Category</option>
                     {% for category in categories %}
