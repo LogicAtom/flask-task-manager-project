@@ -117,7 +117,7 @@ def profile():
 def logout():
     """ logout to remove user from session cookie """
     flash("You have been logged out")
-    session.pop["user"]
+    app.logout("user")
     return redirect(url_for("login"))
 
 
