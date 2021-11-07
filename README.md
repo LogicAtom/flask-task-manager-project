@@ -71,11 +71,10 @@ CRUD functions are handled via buttons for UI simplicity.
     Everyone can view all posts.
 ******
 ### Wireframes, mockups, diagrams etc. that were created as part of the design process. 
-PLEASE NOTE THAT THIS SECTION NEEDS UPDATING
 
-https://github.com/LogicAtom/TargetShooter/tree/main/wireframes/versions/version2
+https://github.com/LogicAtom/flask-task-manager-project/tree/main/static/screenshots
 
-Documentation for wireframes: I have included the wireframes in sequential order to show my direction for the layout, even though the final product doesn't use some of the elements. Its pretty self explanatory.
+Documentation for wireframes: I have included the wireframes in sequential order to show my direction for the layout, even though the final product doesn't use some of the elements.
 
 ## Data Modeling
 
